@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "creative_intentions_support_mod:blocks/polished_dolomite",
+    "particle": "creative_intentions_support_mod:blocks/polished_dolomite"
+  }
+}

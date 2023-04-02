@@ -1,0 +1,2097 @@
+{
+  "mod_elements": [
+    {
+      "name": "OverworldQuartzOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworld_quartz_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/OverworldQuartzOreBlock.java",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/ores/OverworldQuartzOreFeature.java",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/overworld_quartz_ore.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/overworld_quartz_ore.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/overworld_quartz_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "OverworldQuartzOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworld_quartz_ore_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/procedures/OverworldQuartzOreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OverworldQuartzOreBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworld_quartz_ore_block_destroyed_by_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/procedures/OverworldQuartzOreBlockDestroyedByExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeepslateOverworldQuartzore",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_overworld_quartzore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/ores/DeepslateOverworldQuartzoreFeature.java",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/deepslate_overworld_quartzore.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/deepslate_overworld_quartzore.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/DeepslateOverworldQuartzoreBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/deepslate_overworld_quartzore.json"
+        ]
+      }
+    },
+    {
+      "name": "QuartzOre",
+      "type": "tag",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ores/quartz.json"
+        ]
+      }
+    },
+    {
+      "name": "MistyForest",
+      "type": "biome",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "misty_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/biome/MistyForestBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "MistyPlains",
+      "type": "biome",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "misty_plains",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/biome/MistyPlainsBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "MagnesiumIngot",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/item/MagnesiumIngotItem.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/magnesium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "RawMagnesium",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_magnesium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/raw_magnesium.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/item/RawMagnesiumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagnesiumingotSmeltingRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesiumingot_smelting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/magnesium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnesiumIngotBlastingRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_ingot_blasting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/magnesium_ingot_blasting_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MistyWoods",
+      "type": "dimension",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "misty_woods",
+      "metadata": {
+        "ep": true,
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/teleporter/MistyWoodsPortalShape.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/misty_woods_portal_ns.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/misty_woods_portal.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/misty_woods_portal_ew.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/MistyWoodsPortalBlock.java",
+          "src/main/resources/data/creative_intentions_support_mod/dimension/misty_woods.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/misty_woods.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/item/MistyWoodsItem.java",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/dimension/MistyWoodsDimension.java",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/teleporter/MistyWoodsTeleporter.java",
+          "src/main/resources/data/creative_intentions_support_mod/dimension_type/misty_woods.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintAndMagnesiumRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_and_magnesium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/flint_and_magnesium.json"
+        ]
+      }
+    },
+    {
+      "name": "Dolomite",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/dolomite.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/DolomiteBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/dolomite.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/ores/DolomiteFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "CobbledDolomite",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_dolomite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/cobbled_dolomite.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/cobbled_dolomite.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/cobbled_dolomite.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/CobbledDolomiteBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MagnesiumBlock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/magnesium_block.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/MagnesiumBlockBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/magnesium_block.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/magnesium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteBricks",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/dolomite_bricks.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/dolomite_bricks.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/DolomiteBricksBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnesiumBlockRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/magnesium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteBricksRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_bricks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteSmeltingRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_smelting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_smelting_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CreativeIntentionsTab",
+      "type": "tab",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_intentions_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PolishedDolomite",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dolomite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/PolishedDolomiteBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/polished_dolomite.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/polished_dolomite.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/polished_dolomite.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnesiumOre",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/magnesium_ore.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/MagnesiumOreBlock.java",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/ores/MagnesiumOreFeature.java",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/magnesium_ore.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/magnesium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnesiumOreTag",
+      "type": "tag",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_ore_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ores/magnesium.json"
+        ]
+      }
+    },
+    {
+      "name": "CrushedMagnesium",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_magnesium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/item/CrushedMagnesiumItem.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/crushed_magnesium.json"
+        ]
+      }
+    },
+    {
+      "name": "CrushedMagnesiumSmeltingRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_magnesium_smelting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/crushed_magnesium_smelting_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrushedMagnesiumBlastingRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_magnesium_blasting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/crushed_magnesium_blasting_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RawMagnesiumBlock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_magnesium_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/RawMagnesiumBlockBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/raw_magnesium_block.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/raw_magnesium_block.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/raw_magnesium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RawMagnesiumBlockRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_magnesium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/raw_magnesium_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RawMagnesiumRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_magnesium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/raw_magnesium_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteStairs",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_stairs_outer.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/dolomite_stairs.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/DolomiteStairsBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_stairs.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/dolomite_stairs.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteSlab",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_slab.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/dolomite_slab.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/dolomite_slab.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_slab_top.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/DolomiteSlabBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_slab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteWall",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_wall_side_tall.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_wall_inventory.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/DolomiteWallBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_wall_post.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/dolomite_wall.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_wall.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/dolomite_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "CobbledDolomiteStairs",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_dolomite_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/cobbled_dolomite_stairs_outer.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/cobbled_dolomite_stairs.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/CobbledDolomiteStairsBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/cobbled_dolomite_stairs.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/cobbled_dolomite_stairs_inner.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/cobbled_dolomite_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "CobbledDolomiteSlab",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_dolomite_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/cobbled_dolomite_slab_full.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/CobbledDolomiteSlabBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/cobbled_dolomite_slab_top.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/cobbled_dolomite_slab.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/cobbled_dolomite_slab.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/cobbled_dolomite_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "CobbledDolomiteWall",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_dolomite_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/cobbled_dolomite_wall_post.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/cobbled_dolomite_wall.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/cobbled_dolomite_wall.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/cobbled_dolomite_wall_side_tall.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/cobbled_dolomite_wall_inventory.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/cobbled_dolomite_wall.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/CobbledDolomiteWallBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ChiseledDolomiteBricks",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_dolomite_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/chiseled_dolomite_bricks.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/chiseled_dolomite_bricks.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/chiseled_dolomite_bricks.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/ChiseledDolomiteBricksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteBrickStairs",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_brick_stairs_outer.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/dolomite_brick_stairs.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_brick_stairs_inner.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/DolomiteBrickStairsBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_brick_stairs.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/dolomite_brick_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteBrickSlab",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_brick_slab_top.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/dolomite_brick_slab.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/dolomite_brick_slab.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_brick_slab.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_brick_slab_full.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/DolomiteBrickSlabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteBrickWall",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_brick_wall_side_tall.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/DolomiteBrickWallBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_brick_wall.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/dolomite_brick_wall.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_brick_wall_inventory.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/dolomite_brick_wall.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/dolomite_brick_wall_post.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDolomiteStairs",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dolomite_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/polished_dolomite_stairs.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/polished_dolomite_stairs_inner.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/polished_dolomite_stairs_outer.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/PolishedDolomiteStairsBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/polished_dolomite_stairs.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/polished_dolomite_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDolomiteSlab",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dolomite_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/polished_dolomite_slab.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/PolishedDolomiteSlabBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/polished_dolomite_slab.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/polished_dolomite_slab_top.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/polished_dolomite_slab_full.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/polished_dolomite_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDolomiteWall",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dolomite_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/polished_dolomite_wall_post.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/polished_dolomite_wall_side_tall.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/polished_dolomite_wall_inventory.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/polished_dolomite_wall.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/polished_dolomite_wall.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/PolishedDolomiteWallBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/polished_dolomite_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteStonecutting1",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_stonecutting_1.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteStonecutting2",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_stonecutting_2.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteStonecutting3",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_stonecutting_3.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteStonecutting4",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_stonecutting_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_stonecutting_4.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteStonecutting5",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_stonecutting_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_stonecutting_5.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteStonecutting6",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_stonecutting_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_stonecutting_6.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteStonecutting7",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_stonecutting_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_stonecutting_7.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteStonecutting8",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_stonecutting_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_stonecutting_8.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteStonecutting9",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_stonecutting_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_stonecutting_9.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteStonecutting10",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_stonecutting_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_stonecutting_10.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteStonecutting11",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_stonecutting_11",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_stonecutting_11.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteStonecutting12",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_stonecutting_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_stonecutting_12.json"
+        ]
+      }
+    },
+    {
+      "name": "CobbledDolomiteStonecutting1",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_dolomite_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/cobbled_dolomite_stonecutting_1.json"
+        ]
+      }
+    },
+    {
+      "name": "CobbledDolomiteStonecutting2",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_dolomite_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/cobbled_dolomite_stonecutting_2.json"
+        ]
+      }
+    },
+    {
+      "name": "CobbledDolomiteStonecutting3",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_dolomite_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/cobbled_dolomite_stonecutting_3.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDolomiteStonecutting1",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dolomite_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/polished_dolomite_stonecutting_1.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDolomiteStonecutting2",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dolomite_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/polished_dolomite_stonecutting_2.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDolomiteStonecutting3",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dolomite_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/polished_dolomite_stonecutting_3.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteBricksStonecutting1",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_bricks_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_bricks_stonecutting_1.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteBricksStonecutting2",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_bricks_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_bricks_stonecutting_2.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteBricksStonecutting3",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_bricks_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_bricks_stonecutting_3.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDolomiteRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dolomite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/polished_dolomite_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChiseledDolomiteBricksRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_dolomite_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/chiseled_dolomite_bricks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteStairsRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteSlabRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteWallRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_wall_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDolomiteStairsRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dolomite_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/polished_dolomite_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDolomiteSlabRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dolomite_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/polished_dolomite_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDolomiteWallRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dolomite_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/polished_dolomite_wall_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_brick_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_brick_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_brick_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_brick_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DolomiteBrickWallRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolomite_brick_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/dolomite_brick_wall_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnesiumIngotRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/magnesium_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Walls",
+      "type": "tag",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walls",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/walls.json"
+        ]
+      }
+    },
+    {
+      "name": "Stone",
+      "type": "tag",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/stone.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnesiumNugget",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/item/MagnesiumNuggetItem.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/magnesium_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "AssassinPlaceholder",
+      "type": "livingentity",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assassin_placeholder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/client/renderer/AssassinPlaceholderRenderer.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/assassin_placeholder_spawn_egg.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/entity/AssassinPlaceholderEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "AssassinVariant1",
+      "type": "livingentity",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assassin_variant_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/client/renderer/AssassinVariant1Renderer.java",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/entity/AssassinVariant1Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "AssassinVariant2",
+      "type": "livingentity",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assassin_variant_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/entity/AssassinVariant2Entity.java",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/client/renderer/AssassinVariant2Renderer.java"
+        ]
+      }
+    },
+    {
+      "name": "AssassinSpawning",
+      "type": "tag",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assassin_spawning",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/assassin_spawning.json"
+        ]
+      }
+    },
+    {
+      "name": "AssassinPlaceholderOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assassin_placeholder_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/procedures/AssassinPlaceholderOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AssassinVariant3",
+      "type": "livingentity",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assassin_variant_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/entity/AssassinVariant3Entity.java",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/client/renderer/AssassinVariant3Renderer.java"
+        ]
+      }
+    },
+    {
+      "name": "VulcanWood",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_hyphae",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/vulcan_hyphae.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_hyphae.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/vulcan_hyphae.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/VulcanWoodBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "VulcanLog",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_stem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/vulcan_stem.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/VulcanLogBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_stem.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/vulcan_stem.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanPlanks",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_planks.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/VulcanPlanksBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/vulcan_planks.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/vulcan_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanStairs",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/vulcan_stairs.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/vulcan_stairs.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_stairs_inner.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/VulcanStairsBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_stairs.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanSlab",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_slab.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_slab_top.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_slab_full.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/vulcan_slab.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/VulcanSlabBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/vulcan_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanFence",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_fence_post.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/vulcan_fence.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/vulcan_fence.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_fence_inventory.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_fence.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/VulcanFenceBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "VulcanFenceGate",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_fence_gate.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/vulcan_fence_gate.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_fence_gate_wall_open.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_fence_gate_open.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/VulcanFenceGateBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_fence_gate_wall.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/vulcan_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanPressurePlate",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_pressure_plate_down.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_pressure_plate.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/vulcan_pressure_plate.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/VulcanPressurePlateBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/vulcan_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanButton",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_button.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_button_inventory.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/VulcanButtonBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_button_pressed.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/vulcan_button.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/vulcan_button.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanItemsTag",
+      "type": "tag",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/vulcan_log.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanWoodRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/vulcan_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanPlanksRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/vulcan_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanStairsRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/vulcan_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanSlabRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/vulcan_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanFenceRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/vulcan_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/vulcan_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/vulcan_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanButtonRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/vulcan_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanStickRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/vulcan_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedVulcanHyphae",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_vulcan_hyphae",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/stripped_vulcan_hyphae.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/stripped_vulcan_hyphae.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/stripped_vulcan_hyphae.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/StrippedVulcanHyphaeBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "StrippedVulcanStem",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_vulcan_stem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/stripped_vulcan_stem.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/StrippedVulcanStemBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/stripped_vulcan_stem.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/stripped_vulcan_stem.json"
+        ]
+      }
+    },
+    {
+      "name": "ScoriaEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scoria_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/procedures/ScoriaEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VulcanNylium",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_nylium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/VulcanNyliumBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/vulcan_nylium.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_nylium.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/vulcan_nylium.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanWartBlock",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_wart_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/vulcan_wart_block.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/VulcanWartBlockBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/vulcan_wart_block.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_wart_block.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanFungus",
+      "type": "plant",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_fungus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/vulcan_fungus.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/vulcan_fungus.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/VulcanFungusBlock.java",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/plants/VulcanFungusFeature.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_fungus.json"
+        ]
+      }
+    },
+    {
+      "name": "VulcanForest",
+      "type": "biome",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/biome/VulcanForestBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "VulcanRoots",
+      "type": "plant",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_roots",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/vulcan_roots.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/VulcanRootsBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/vulcan_roots.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/plants/VulcanRootsFeature.java",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/vulcan_roots.json"
+        ]
+      }
+    },
+    {
+      "name": "Scoria",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scoria",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/scoria.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/scoria.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/scoria.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/ores/ScoriaFeature.java",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/ScoriaBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MagmaCrackedNetherBricks",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_cracked_nether_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/magma_cracked_nether_bricks.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/magma_cracked_nether_bricks.json",
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/magma_cracked_nether_bricks.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/MagmaCrackedNetherBricksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MagmaCrackedNetherBricksRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_cracked_nether_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/creative_intentions_support_mod/recipes/magma_cracked_nether_bricks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenVinesPlant",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_vines_plant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/molten_vines_plant.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/molten_vines_plant.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/MoltenVinesPlantBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/molten_vines_plant.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenVines",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_vines",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creative_intentions_support_mod/blockstates/molten_vines.json",
+          "src/main/java/net/mcreator/creativeintentionssupportmod/block/MoltenVinesBlock.java",
+          "src/main/resources/assets/creative_intentions_support_mod/models/item/molten_vines.json",
+          "src/main/resources/assets/creative_intentions_support_mod/models/block/molten_vines.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenVinesNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_vines_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/procedures/MoltenVinesNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoltenVinesPlantNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_vines_plant_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/procedures/MoltenVinesPlantNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VulcanSpore",
+      "type": "particle",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_spore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/client/particle/VulcanSporeParticle.java",
+          "src/main/resources/assets/creative_intentions_support_mod/particles/vulcan_spore.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenVinesBlockAdded",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_vines_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/procedures/MoltenVinesBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VulcanFungusTree1",
+      "type": "structure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_fungus_tree_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/VulcanFungusTree1Feature.java"
+        ]
+      }
+    },
+    {
+      "name": "VulcanFungusTree2",
+      "type": "structure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_fungus_tree_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/VulcanFungusTree2Feature.java"
+        ]
+      }
+    },
+    {
+      "name": "VulcanFungusTree3",
+      "type": "structure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_fungus_tree_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/VulcanFungusTree3Feature.java"
+        ]
+      }
+    },
+    {
+      "name": "VulcanFungusTree4",
+      "type": "structure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_fungus_tree_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/VulcanFungusTree4Feature.java"
+        ]
+      }
+    },
+    {
+      "name": "VulcanFungusTree5",
+      "type": "structure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_fungus_tree_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/VulcanFungusTree5Feature.java"
+        ]
+      }
+    },
+    {
+      "name": "VulcanFungusTree6",
+      "type": "structure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_fungus_tree_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/VulcanFungusTree6Feature.java"
+        ]
+      }
+    },
+    {
+      "name": "VulcanFungusTree7",
+      "type": "structure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_fungus_tree_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/VulcanFungusTree7Feature.java"
+        ]
+      }
+    },
+    {
+      "name": "VulcanFungusTree8",
+      "type": "structure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_fungus_tree_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/VulcanFungusTree8Feature.java"
+        ]
+      }
+    },
+    {
+      "name": "VulcanFungusTree9",
+      "type": "structure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_fungus_tree_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/creativeintentionssupportmod/world/features/VulcanFungusTree9Feature.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.creative_intentions_support_mod.dolomite": "Dolomite",
+      "block.creative_intentions_support_mod.raw_magnesium_block": "Block of Raw Magnesite",
+      "block.creative_intentions_support_mod.cobbled_dolomite_wall": "Cobbled Dolomite Wall",
+      "block.creative_intentions_support_mod.dolomite_brick_wall": "Dolomite Brick Wall",
+      "block.creative_intentions_support_mod.vulcan_hyphae": "Vulcan Hyphae",
+      "block.creative_intentions_support_mod.polished_dolomite_wall": "Polished Dolomite Wall",
+      "entity.creative_intentions_support_mod.assassin_variant_2": "Assassin",
+      "block.creative_intentions_support_mod.dolomite_bricks": "Dolomite Bricks",
+      "entity.creative_intentions_support_mod.assassin_variant_1": "Assassin",
+      "block.creative_intentions_support_mod.dolomite_slab": "Dolomite Slab",
+      "entity.creative_intentions_support_mod.assassin_variant_3": "Assassin",
+      "block.creative_intentions_support_mod.molten_vines": "Molten Vines",
+      "biome.creative_intentions_support_mod.misty_forest": "Misty Forest",
+      "block.creative_intentions_support_mod.vulcan_slab": "Vulcan Slab",
+      "block.creative_intentions_support_mod.deepslate_overworld_quartzore": "Deepslate Overworld Quartz Ore",
+      "block.creative_intentions_support_mod.polished_dolomite_slab": "Polished Dolomite Slab",
+      "item.creative_intentions_support_mod.assassin_placeholder_spawn_egg": "Assassin Spawn Egg",
+      "block.creative_intentions_support_mod.vulcan_pressure_plate": "Vulcan Pressure Plate",
+      "item.creative_intentions_support_mod.magnesium_nugget": "Magnesium Nugget",
+      "biome.creative_intentions_support_mod.vulcan_forest": "Vulcan Forest",
+      "block.creative_intentions_support_mod.dolomite_stairs": "Dolomite Stairs",
+      "item.creative_intentions_support_mod.magnesium_ingot": "Magnesium Ingot",
+      "block.creative_intentions_support_mod.vulcan_roots": "Vulcan Roots",
+      "block.creative_intentions_support_mod.dolomite_brick_stairs": "Dolomite Brick Stairs",
+      "block.creative_intentions_support_mod.cobbled_dolomite_slab": "Cobbled Dolomite Slab",
+      "itemGroup.tabcreative_intentions_tab": "Creative Intentions",
+      "item.creative_intentions_support_mod.misty_woods": "Flint and Magnesium",
+      "block.creative_intentions_support_mod.molten_vines_plant": "Molten Vines Plant",
+      "block.creative_intentions_support_mod.magma_cracked_nether_bricks": "Magma Cracked Nether Bricks",
+      "block.creative_intentions_support_mod.cobbled_dolomite": "Cobbled Dolomite",
+      "block.creative_intentions_support_mod.vulcan_fungus": "Vulcan Fungus",
+      "item.creative_intentions_support_mod.raw_magnesium": "Raw Magnesite",
+      "item.creative_intentions_support_mod.assassin_variant_2_spawn_egg": "Assassin Spawn Egg",
+      "item.creative_intentions_support_mod.assassin_variant_3_spawn_egg": "Assassin Spawn Egg",
+      "entity.creative_intentions_support_mod.assassin_placeholder": "Assassin",
+      "block.creative_intentions_support_mod.vulcan_planks": "Vulcan Planks",
+      "block.creative_intentions_support_mod.overworld_quartz_ore": "Overworld Quartz Ore",
+      "block.creative_intentions_support_mod.polished_dolomite": "Polished Dolomite",
+      "block.creative_intentions_support_mod.stripped_vulcan_stem": "Stripped Vulcan Stem",
+      "block.creative_intentions_support_mod.polished_dolomite_stairs": "Polished Dolomite Stairs",
+      "block.creative_intentions_support_mod.dolomite_wall": "Dolomite Wall",
+      "block.creative_intentions_support_mod.vulcan_wart_block": "Vulcan Wart Block",
+      "block.creative_intentions_support_mod.vulcan_button": "Vulcan Button",
+      "block.creative_intentions_support_mod.stripped_vulcan_hyphae": "Stripped Vulcan Hyphae",
+      "block.creative_intentions_support_mod.magnesium_ore": "Magnesite",
+      "block.creative_intentions_support_mod.vulcan_stairs": "Vulcan Stairs",
+      "block.creative_intentions_support_mod.vulcan_stem": "Vulcan Stem",
+      "block.creative_intentions_support_mod.magnesium_block": "Block of Magnesium",
+      "biome.creative_intentions_support_mod.misty_plains": "Misty Plains",
+      "item.creative_intentions_support_mod.assassin_variant_1_spawn_egg": "Assassin Spawn Egg",
+      "block.creative_intentions_support_mod.vulcan_fence_gate": "Vulcan Fence Gate",
+      "block.creative_intentions_support_mod.vulcan_nylium": "Vulcan Nylium",
+      "block.creative_intentions_support_mod.cobbled_dolomite_stairs": "Cobbled Dolomite Stairs",
+      "block.creative_intentions_support_mod.dolomite_brick_slab": "Dolomite Brick Slab",
+      "block.creative_intentions_support_mod.vulcan_fence": "Vulcan Fence",
+      "block.creative_intentions_support_mod.scoria": "Scoria",
+      "item.creative_intentions_support_mod.crushed_magnesium": "Crushed Magnesite",
+      "block.creative_intentions_support_mod.chiseled_dolomite_bricks": "Chiseled Dolomite Bricks"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "creative_intentions_support_mod",
+    "modName": "Creative Intentions Support Mod",
+    "version": "1.0.0",
+    "description": "A support mod for the Creative Intentions Modpack",
+    "author": "Voltage Victor, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.creativeintentionssupportmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "creative_intentions_support_mod:raw_magnesium"
+  },
+  "result": "creative_intentions_support_mod:magnesium_ingot"
+}

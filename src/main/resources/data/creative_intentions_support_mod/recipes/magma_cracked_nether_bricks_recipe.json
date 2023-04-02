@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "creative_intentions_support_mod:scoria"
+    },
+    "1": {
+      "item": "creative_intentions_support_mod:scoria"
+    },
+    "2": {
+      "item": "creative_intentions_support_mod:scoria"
+    },
+    "3": {
+      "item": "creative_intentions_support_mod:scoria"
+    }
+  },
+  "result": {
+    "item": "creative_intentions_support_mod:magma_cracked_nether_bricks",
+    "count": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "creative_intentions_support_mod:vulcan_planks"
+    },
+    "1": {
+      "item": "creative_intentions_support_mod:vulcan_planks"
+    },
+    "2": {
+      "item": "creative_intentions_support_mod:vulcan_planks"
+    }
+  },
+  "result": {
+    "item": "creative_intentions_support_mod:vulcan_slab",
+    "count": 6
+  }
+}

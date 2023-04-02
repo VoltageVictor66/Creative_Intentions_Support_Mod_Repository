@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "creative_intentions_support_mod:vulcan_stem"
+    },
+    "1": {
+      "item": "creative_intentions_support_mod:vulcan_stem"
+    },
+    "2": {
+      "item": "creative_intentions_support_mod:vulcan_stem"
+    },
+    "3": {
+      "item": "creative_intentions_support_mod:vulcan_stem"
+    }
+  },
+  "result": {
+    "item": "creative_intentions_support_mod:vulcan_hyphae",
+    "count": 3
+  }
+}

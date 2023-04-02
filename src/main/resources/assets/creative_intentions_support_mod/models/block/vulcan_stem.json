@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "creative_intentions_support_mod:blocks/vulcan_stem_top",
+    "up": "creative_intentions_support_mod:blocks/vulcan_stem_top",
+    "north": "creative_intentions_support_mod:blocks/vulcan_stem",
+    "east": "creative_intentions_support_mod:blocks/vulcan_stem",
+    "south": "creative_intentions_support_mod:blocks/vulcan_stem",
+    "west": "creative_intentions_support_mod:blocks/vulcan_stem",
+    "particle": "creative_intentions_support_mod:blocks/vulcan_stem_top"
+  }
+}

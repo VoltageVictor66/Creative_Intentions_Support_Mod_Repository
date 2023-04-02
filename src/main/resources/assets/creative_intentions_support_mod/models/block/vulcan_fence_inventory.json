@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "creative_intentions_support_mod:blocks/vulcan_planks",
+    "particle": "creative_intentions_support_mod:blocks/vulcan_planks"
+  }
+}

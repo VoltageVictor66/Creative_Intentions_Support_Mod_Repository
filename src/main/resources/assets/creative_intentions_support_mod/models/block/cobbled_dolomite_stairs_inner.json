@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "creative_intentions_support_mod:blocks/cobbled_dolomite",
+    "top": "creative_intentions_support_mod:blocks/cobbled_dolomite",
+    "side": "creative_intentions_support_mod:blocks/cobbled_dolomite"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "creative_intentions_support_mod:dolomite",
+    "creative_intentions_support_mod:dolomite_stairs",
+    "creative_intentions_support_mod:dolomite_slab",
+    "creative_intentions_support_mod:dolomite_wall",
+    "creative_intentions_support_mod:polished_dolomite",
+    "creative_intentions_support_mod:polished_dolomite_stairs",
+    "creative_intentions_support_mod:polished_dolomite_slab",
+    "creative_intentions_support_mod:polished_dolomite_wall",
+    "creative_intentions_support_mod:dolomite_bricks",
+    "creative_intentions_support_mod:dolomite_brick_stairs",
+    "creative_intentions_support_mod:dolomite_brick_slab",
+    "creative_intentions_support_mod:dolomite_brick_wall",
+    "creative_intentions_support_mod:chiseled_dolomite_bricks",
+    "creative_intentions_support_mod:cobbled_dolomite",
+    "creative_intentions_support_mod:cobbled_dolomite_stairs",
+    "creative_intentions_support_mod:cobbled_dolomite_slab",
+    "creative_intentions_support_mod:cobbled_dolomite_wall",
+    "creative_intentions_support_mod:overworld_quartz_ore",
+    "creative_intentions_support_mod:deepslate_overworld_quartzore",
+    "creative_intentions_support_mod:magnesium_ore",
+    "creative_intentions_support_mod:magnesium_block",
+    "creative_intentions_support_mod:scoria",
+    "creative_intentions_support_mod:magma_cracked_nether_bricks"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "creative_intentions_support_mod:raw_magnesium"
+    },
+    "1": {
+      "item": "creative_intentions_support_mod:raw_magnesium"
+    },
+    "2": {
+      "item": "creative_intentions_support_mod:raw_magnesium"
+    },
+    "3": {
+      "item": "creative_intentions_support_mod:raw_magnesium"
+    },
+    "4": {
+      "item": "creative_intentions_support_mod:raw_magnesium"
+    },
+    "5": {
+      "item": "creative_intentions_support_mod:raw_magnesium"
+    },
+    "6": {
+      "item": "creative_intentions_support_mod:raw_magnesium"
+    },
+    "7": {
+      "item": "creative_intentions_support_mod:raw_magnesium"
+    },
+    "8": {
+      "item": "creative_intentions_support_mod:raw_magnesium"
+    }
+  },
+  "result": {
+    "item": "creative_intentions_support_mod:raw_magnesium_block",
+    "count": 1
+  }
+}

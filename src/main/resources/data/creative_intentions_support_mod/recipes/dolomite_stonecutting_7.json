@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "creative_intentions_support_mod:dolomite"
+  },
+  "result": "creative_intentions_support_mod:polished_dolomite_wall"
+}

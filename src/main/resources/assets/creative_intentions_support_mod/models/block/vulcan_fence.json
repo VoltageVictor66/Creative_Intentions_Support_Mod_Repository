@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "creative_intentions_support_mod:blocks/vulcan_planks",
+    "particle": "creative_intentions_support_mod:blocks/vulcan_planks"
+  }
+}

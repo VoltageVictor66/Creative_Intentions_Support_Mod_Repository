@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:DolomiteBrickWall"
+      },
+      {
+        "value": "CUSTOM:DolomiteWall"
+      },
+      {
+        "value": "CUSTOM:PolishedDolomiteWall"
+      },
+      {
+        "value": "CUSTOM:CobbledDolomiteWall"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "walls",
+    "namespace": "minecraft"
+  }
+}

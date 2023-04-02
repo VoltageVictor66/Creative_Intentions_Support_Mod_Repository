@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "creative_intentions_support_mod:raw_magnesium_block"
+    }
+  },
+  "result": {
+    "item": "creative_intentions_support_mod:raw_magnesium",
+    "count": 9
+  }
+}

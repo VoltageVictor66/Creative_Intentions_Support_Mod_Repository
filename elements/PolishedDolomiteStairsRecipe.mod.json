@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolishedDolomite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedDolomite"
+      },
+      {
+        "value": "CUSTOM:PolishedDolomite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedDolomite"
+      },
+      {
+        "value": "CUSTOM:PolishedDolomite"
+      },
+      {
+        "value": "CUSTOM:PolishedDolomite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedDolomiteStairs"
+    },
+    "name": "polished_dolomite_stairs_recipe",
+    "namespace": "mod"
+  }
+}

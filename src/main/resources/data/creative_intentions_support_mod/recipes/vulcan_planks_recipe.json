@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:vulcan_log"
+    }
+  ],
+  "result": {
+    "item": "creative_intentions_support_mod:vulcan_planks",
+    "count": 4
+  }
+}

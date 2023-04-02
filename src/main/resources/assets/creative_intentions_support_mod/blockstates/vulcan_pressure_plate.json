@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "creative_intentions_support_mod:block/vulcan_pressure_plate"
+    },
+    "powered=true": {
+      "model": "creative_intentions_support_mod:block/vulcan_pressure_plate_down"
+    }
+  }
+}

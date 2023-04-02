@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "creative_intentions_support_mod:blocks/vulcan_planks"
+  }
+}

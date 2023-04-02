@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "particle": "creative_intentions_support_mod:blocks/midnight_woods_portal",
+    "portal": "creative_intentions_support_mod:blocks/midnight_woods_portal"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        6
+      ],
+      "to": [
+        16,
+        16,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#portal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#portal"
+        }
+      }
+    }
+  ]
+}

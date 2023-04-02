@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "creative_intentions_support_mod:vulcan_planks"
+    }
+  ],
+  "result": {
+    "item": "creative_intentions_support_mod:vulcan_button",
+    "count": 1
+  }
+}

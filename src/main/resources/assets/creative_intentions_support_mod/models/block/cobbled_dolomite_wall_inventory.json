@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "creative_intentions_support_mod:blocks/cobbled_dolomite",
+    "particle": "creative_intentions_support_mod:blocks/cobbled_dolomite"
+  }
+}

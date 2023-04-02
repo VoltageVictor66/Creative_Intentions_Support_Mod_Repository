@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "creative_intentions_support_mod:dolomite"
+    },
+    "3": {
+      "item": "creative_intentions_support_mod:dolomite"
+    },
+    "4": {
+      "item": "creative_intentions_support_mod:dolomite"
+    },
+    "6": {
+      "item": "creative_intentions_support_mod:dolomite"
+    },
+    "7": {
+      "item": "creative_intentions_support_mod:dolomite"
+    },
+    "8": {
+      "item": "creative_intentions_support_mod:dolomite"
+    }
+  },
+  "result": {
+    "item": "creative_intentions_support_mod:dolomite_stairs",
+    "count": 4
+  }
+}

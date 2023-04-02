@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "creative_intentions_support_mod:vulcan_planks"
+    },
+    "3": {
+      "item": "creative_intentions_support_mod:vulcan_planks"
+    },
+    "4": {
+      "item": "creative_intentions_support_mod:vulcan_planks"
+    },
+    "6": {
+      "item": "creative_intentions_support_mod:vulcan_planks"
+    },
+    "7": {
+      "item": "creative_intentions_support_mod:vulcan_planks"
+    },
+    "8": {
+      "item": "creative_intentions_support_mod:vulcan_planks"
+    }
+  },
+  "result": {
+    "item": "creative_intentions_support_mod:vulcan_stairs",
+    "count": 4
+  }
+}

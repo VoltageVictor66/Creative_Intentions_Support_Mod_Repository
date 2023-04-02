@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "creative_intentions_support_mod:blocks/dolomite",
+    "particle": "creative_intentions_support_mod:blocks/dolomite"
+  }
+}

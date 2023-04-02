@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "creative_intentions_support_mod:polished_dolomite"
+    },
+    "1": {
+      "item": "creative_intentions_support_mod:polished_dolomite"
+    },
+    "2": {
+      "item": "creative_intentions_support_mod:polished_dolomite"
+    }
+  },
+  "result": {
+    "item": "creative_intentions_support_mod:polished_dolomite_slab",
+    "count": 6
+  }
+}

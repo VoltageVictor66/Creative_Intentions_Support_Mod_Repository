@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "creative_intentions_support_mod:block/dolomite_brick_slab"
+    },
+    "type=top": {
+      "model": "creative_intentions_support_mod:block/dolomite_brick_slab_top"
+    },
+    "type=double": {
+      "model": "creative_intentions_support_mod:block/dolomite_brick_slab_full"
+    }
+  }
+}

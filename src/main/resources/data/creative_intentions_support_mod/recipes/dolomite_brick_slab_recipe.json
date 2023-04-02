@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "creative_intentions_support_mod:dolomite_bricks"
+    },
+    "1": {
+      "item": "creative_intentions_support_mod:dolomite_bricks"
+    },
+    "2": {
+      "item": "creative_intentions_support_mod:dolomite_bricks"
+    }
+  },
+  "result": {
+    "item": "creative_intentions_support_mod:dolomite_brick_slab",
+    "count": 6
+  }
+}

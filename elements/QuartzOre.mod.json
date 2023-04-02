@@ -1,0 +1,24 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:OverworldQuartzOre"
+      },
+      {
+        "value": "CUSTOM:DeepslateOverworldQuartzore"
+      },
+      {
+        "value": "Blocks.QUARTZ_ORE"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "ores/quartz",
+    "namespace": "forge"
+  }
+}

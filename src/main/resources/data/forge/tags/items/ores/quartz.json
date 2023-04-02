@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:nether_quartz_ore",
+    "creative_intentions_support_mod:deepslate_overworld_quartzore",
+    "creative_intentions_support_mod:overworld_quartz_ore"
+  ]
+}

@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="creative_intentions_support_mod"
+version="1.0.0"
+displayName="Creative Intentions Support Mod"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Voltage Victor, MCreator"
+description='''
+A support mod for the Creative Intentions Modpack
+'''
+
+[[dependencies.creative_intentions_support_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

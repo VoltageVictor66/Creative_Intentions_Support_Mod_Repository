@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "creative_intentions_support_mod:blocks/polished_dolomite",
+    "top": "creative_intentions_support_mod:blocks/polished_dolomite",
+    "side": "creative_intentions_support_mod:blocks/polished_dolomite"
+  }
+}

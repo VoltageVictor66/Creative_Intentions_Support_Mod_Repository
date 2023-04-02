@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:AssassinVariant1"
+      },
+      {
+        "value": "CUSTOM:AssassinVariant2"
+      }
+    ],
+    "biomes": [],
+    "name": "assassin_spawning",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:VulcanLog"
+      },
+      {
+        "value": "CUSTOM:VulcanLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:VulcanLog"
+      },
+      {
+        "value": "CUSTOM:VulcanLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:VulcanWood"
+    },
+    "name": "vulcan_wood_recipe",
+    "namespace": "mod"
+  }
+}

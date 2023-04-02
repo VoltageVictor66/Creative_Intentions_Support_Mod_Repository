@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "creative_intentions_support_mod:blocks/vulcan_fungus",
+    "particle": "creative_intentions_support_mod:blocks/vulcan_fungus"
+  }
+}

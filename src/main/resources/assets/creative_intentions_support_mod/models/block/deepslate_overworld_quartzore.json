@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "creative_intentions_support_mod:blocks/deepslate_overworld_quartz_ore",
+    "particle": "creative_intentions_support_mod:blocks/deepslate_overworld_quartz_ore"
+  }
+}

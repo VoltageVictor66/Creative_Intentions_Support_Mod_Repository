@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "creative_intentions_support_mod:blocks/molten_vines",
+    "particle": "creative_intentions_support_mod:blocks/molten_vines"
+  }
+}
